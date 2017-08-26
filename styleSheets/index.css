@@ -1,0 +1,11 @@
+h1 {
+	display: block; 
+	text-align: center;
+}
+
+img {
+	width: 100px; 
+	display: block; 
+	margin: auto; 
+	padding-top: 250px;
+}
