@@ -3,9 +3,36 @@ h1 {
 	text-align: center;
 }
 
-img {
-	width: 100px; 
+.landscape {
+	width: 100%;
 	display: block; 
 	margin: auto; 
-	padding-top: 250px;
+	padding-top: 48px;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    border: 3px solid white;
+    margin-top: -100px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    z-index: 100; 
+}
+
+.container-fluid {
+	padding-top: 100px; 
+}
+
+.projects {
+	padding-top: 50px; 
+	padding-bottom: 50px;
+}
+
+.googleProject {
+	padding: 50px;
+	background-color: #f2f2f2;
 }
