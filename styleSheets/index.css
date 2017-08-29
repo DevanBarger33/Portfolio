@@ -23,6 +23,9 @@ h1 {
     z-index: 100; 
 }
 
+/***************/
+/* Project CSS */
+/***************/
 .container-fluid {
 	padding-top: 100px; 
 }
@@ -35,4 +38,33 @@ h1 {
 .googleProject {
 	padding: 50px;
 	background-color: #f2f2f2;
+}
+
+.eulerProject {
+	padding: 50px;
+	background-color: #795548;
+}
+
+.eulerProject div{
+	text-align: center;
+}
+
+#eulerLogo1 {
+	display: inline-block; 
+	color: #FFFFFF;
+}
+#eulerLogo2 {
+	display: inline-block; 
+	color: #9E9E9E;
+}
+
+
+/* Footer CSS */
+.footer {
+	padding: 100px;
+	background-color: #333;
+}
+
+.footer h1, h2, h3, h4, h5{
+	color: #FFFFFF;
 }
